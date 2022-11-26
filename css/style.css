@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Tahoma;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.header_wrapper_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-left: 30px;
+}
+
+.header_wrapper_title_h1{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.header_wrapper_title_h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.header_wrapper_info{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 47px;
+}
+
+.header_wrapper_price{
+    font-size: 48px;
+    font-weight: 400;
+    color: #313131;
+    margin-bottom: 53px;
+}
+
+.btn{
+    border: 2px solid #f05a22;
+    color: #ffffff;
+    border-radius: 5px;
+    background-color: #f05a22;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 22px 42px 22px 42px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.btn-0{
+    background: transparent;
+    color:#f05a22;
+}
+
+.element{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ffffff;
+    background-color: #f2f2f2;
+}
+
+.element_title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 89px;
+    margin-bottom: 91px;
+}
+
+.element_wrapper{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.element_wrapper p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 99px;
+}
+
+.buyers{
+    display: flex;
+    flex-direction: column;
+}
+
+.buyers_title{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 69px;
+}
+
+.buyers_block{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.buyers_block_img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 25%;
+    padding-bottom: 50px;
+}
